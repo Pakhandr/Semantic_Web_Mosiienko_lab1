@@ -22,7 +22,7 @@ game:game_stalker_2 a game:Game ;
 game:game_stalker_sc a game:Game ;
     game:availableOn game:platform_ps4 ;
     game:developedBy game:dev_gsc_game_world ;
-    game:hasGenre game:genre_survival_horror ;
+    game:hasGenre game:genre_fps ;
     schema:name "S.T.A.L.K.E.R.: Shadow of Chernobyl" .
 
 game:game_witcher3 a game:Game ;
@@ -44,8 +44,6 @@ game:dev_cd_projekt_red a game:Developer ;
 game:dev_the_indie_stone a game:Developer ;
     game:partneredWith game:pub_the_indie_stone ;
     schema:name "The Indie Stone" .
-
-game:genre_fps a game:Genre .
 
 game:genre_rpg a game:Genre .
 
@@ -71,7 +69,9 @@ game:dev_gsc_game_world a game:Developer ;
     game:partneredWith game:pub_gsc ;
     schema:name "GSC Game World" .
 
-game:platform_pc a game:Platform .
+game:genre_fps a game:Genre .
 
 game:genre_survival_horror a game:Genre .
+
+game:platform_pc a game:Platform .
 
