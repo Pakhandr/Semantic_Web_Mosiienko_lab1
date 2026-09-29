@@ -1,0 +1,77 @@
+@prefix game: <http://example.org/gamedb/> .
+@prefix schema: <https://schema.org/> .
+
+game:game_metro_2033 a game:Game ;
+    game:availableOn game:platform_xbox ;
+    game:developedBy game:dev_4a_games ;
+    game:hasGenre game:genre_survival_horror ;
+    schema:name "Metro 2033 Redux" .
+
+game:game_project_zomboid a game:Game ;
+    game:availableOn game:platform_pc ;
+    game:developedBy game:dev_the_indie_stone ;
+    game:hasGenre game:genre_survival_horror ;
+    schema:name "Project Zomboid" .
+
+game:game_stalker_2 a game:Game ;
+    game:availableOn game:platform_pc ;
+    game:developedBy game:dev_gsc_game_world ;
+    game:hasGenre game:genre_fps ;
+    schema:name "S.T.A.L.K.E.R. 2: Heart of Chornobyl" .
+
+game:game_stalker_sc a game:Game ;
+    game:availableOn game:platform_ps4 ;
+    game:developedBy game:dev_gsc_game_world ;
+    game:hasGenre game:genre_survival_horror ;
+    schema:name "S.T.A.L.K.E.R.: Shadow of Chernobyl" .
+
+game:game_witcher3 a game:Game ;
+    game:availableOn game:platform_switch ;
+    game:developedBy game:dev_cd_projekt_red ;
+    game:hasGenre game:genre_rpg ;
+    schema:name "The Witcher 3: Wild Hunt" .
+
+game:platform_ps5 a game:Platform .
+
+game:dev_4a_games a game:Developer ;
+    game:partneredWith game:pub_deep_silver ;
+    schema:name "4A Games" .
+
+game:dev_cd_projekt_red a game:Developer ;
+    game:partneredWith game:pub_cdpr ;
+    schema:name "CD Projekt Red" .
+
+game:dev_the_indie_stone a game:Developer ;
+    game:partneredWith game:pub_the_indie_stone ;
+    schema:name "The Indie Stone" .
+
+game:genre_fps a game:Genre .
+
+game:genre_rpg a game:Genre .
+
+game:platform_ps4 a game:Platform .
+
+game:platform_switch a game:Platform .
+
+game:platform_xbox a game:Platform .
+
+game:pub_cdpr a game:Publisher ;
+    schema:name "CD Projekt" .
+
+game:pub_deep_silver a game:Publisher ;
+    schema:name "Deep Silver" .
+
+game:pub_gsc a game:Publisher ;
+    schema:name "GSC World Publishing" .
+
+game:pub_the_indie_stone a game:Publisher ;
+    schema:name "The Indie Stone" .
+
+game:dev_gsc_game_world a game:Developer ;
+    game:partneredWith game:pub_gsc ;
+    schema:name "GSC Game World" .
+
+game:platform_pc a game:Platform .
+
+game:genre_survival_horror a game:Genre .
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:game="http://example.org/gamedb/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="http://example.org/gamedb/platform_pc">
+    <rdf:type rdf:resource="http://example.org/gamedb/Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/game_stalker_2">
+    <rdf:type rdf:resource="http://example.org/gamedb/Game"/>
+    <schema:name>S.T.A.L.K.E.R. 2: Heart of Chornobyl</schema:name>
+    <game:developedBy rdf:resource="http://example.org/gamedb/dev_gsc_game_world"/>
+    <game:hasGenre rdf:resource="http://example.org/gamedb/genre_fps"/>
+    <game:availableOn rdf:resource="http://example.org/gamedb/platform_pc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/platform_ps4">
+    <rdf:type rdf:resource="http://example.org/gamedb/Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/game_metro_2033">
+    <rdf:type rdf:resource="http://example.org/gamedb/Game"/>
+    <schema:name>Metro 2033 Redux</schema:name>
+    <game:developedBy rdf:resource="http://example.org/gamedb/dev_4a_games"/>
+    <game:hasGenre rdf:resource="http://example.org/gamedb/genre_survival_horror"/>
+    <game:availableOn rdf:resource="http://example.org/gamedb/platform_xbox"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/dev_4a_games">
+    <rdf:type rdf:resource="http://example.org/gamedb/Developer"/>
+    <schema:name>4A Games</schema:name>
+    <game:partneredWith rdf:resource="http://example.org/gamedb/pub_deep_silver"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/game_project_zomboid">
+    <rdf:type rdf:resource="http://example.org/gamedb/Game"/>
+    <schema:name>Project Zomboid</schema:name>
+    <game:developedBy rdf:resource="http://example.org/gamedb/dev_the_indie_stone"/>
+    <game:hasGenre rdf:resource="http://example.org/gamedb/genre_survival_horror"/>
+    <game:availableOn rdf:resource="http://example.org/gamedb/platform_pc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/dev_gsc_game_world">
+    <rdf:type rdf:resource="http://example.org/gamedb/Developer"/>
+    <schema:name>GSC Game World</schema:name>
+    <game:partneredWith rdf:resource="http://example.org/gamedb/pub_gsc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/game_stalker_sc">
+    <rdf:type rdf:resource="http://example.org/gamedb/Game"/>
+    <schema:name>S.T.A.L.K.E.R.: Shadow of Chernobyl</schema:name>
+    <game:developedBy rdf:resource="http://example.org/gamedb/dev_gsc_game_world"/>
+    <game:hasGenre rdf:resource="http://example.org/gamedb/genre_survival_horror"/>
+    <game:availableOn rdf:resource="http://example.org/gamedb/platform_ps4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/pub_cdpr">
+    <rdf:type rdf:resource="http://example.org/gamedb/Publisher"/>
+    <schema:name>CD Projekt</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/dev_cd_projekt_red">
+    <rdf:type rdf:resource="http://example.org/gamedb/Developer"/>
+    <schema:name>CD Projekt Red</schema:name>
+    <game:partneredWith rdf:resource="http://example.org/gamedb/pub_cdpr"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/genre_survival_horror">
+    <rdf:type rdf:resource="http://example.org/gamedb/Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/dev_the_indie_stone">
+    <rdf:type rdf:resource="http://example.org/gamedb/Developer"/>
+    <schema:name>The Indie Stone</schema:name>
+    <game:partneredWith rdf:resource="http://example.org/gamedb/pub_the_indie_stone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/pub_the_indie_stone">
+    <rdf:type rdf:resource="http://example.org/gamedb/Publisher"/>
+    <schema:name>The Indie Stone</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/platform_xbox">
+    <rdf:type rdf:resource="http://example.org/gamedb/Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/platform_ps5">
+    <rdf:type rdf:resource="http://example.org/gamedb/Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/platform_switch">
+    <rdf:type rdf:resource="http://example.org/gamedb/Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/pub_gsc">
+    <rdf:type rdf:resource="http://example.org/gamedb/Publisher"/>
+    <schema:name>GSC World Publishing</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/genre_fps">
+    <rdf:type rdf:resource="http://example.org/gamedb/Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/game_witcher3">
+    <rdf:type rdf:resource="http://example.org/gamedb/Game"/>
+    <schema:name>The Witcher 3: Wild Hunt</schema:name>
+    <game:developedBy rdf:resource="http://example.org/gamedb/dev_cd_projekt_red"/>
+    <game:hasGenre rdf:resource="http://example.org/gamedb/genre_rpg"/>
+    <game:availableOn rdf:resource="http://example.org/gamedb/platform_switch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/pub_deep_silver">
+    <rdf:type rdf:resource="http://example.org/gamedb/Publisher"/>
+    <schema:name>Deep Silver</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/gamedb/genre_rpg">
+    <rdf:type rdf:resource="http://example.org/gamedb/Genre"/>
+  </rdf:Description>
+</rdf:RDF>
